@@ -1,0 +1,19 @@
+{
+  "name": "diffweb",
+  "version": "1.0.0",
+  "description": "Diff between same site",
+  "main": "index.js",
+  "scripts": {
+    "start": "micro",
+    "dev": "micro-dev"
+  },
+  "author": "Alex Torres <aletormat@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "micro": "^9.1.0",
+    "node-fetch": "^2.0.0"
+  },
+  "devDependencies": {
+    "micro-dev": "^2.2.0"
+  }
+}
