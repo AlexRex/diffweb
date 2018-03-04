@@ -23,6 +23,7 @@ const test = async (url) => {
 
 let started = false;
 
+
 const start = () => {
   setInterval(() => {
     fetch('http://127.0.0.1:3000');
